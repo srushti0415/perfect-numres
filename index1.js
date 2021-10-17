@@ -1,15 +1,17 @@
 // PRIME NUMBERS
-let b = 1;
-function primeNumber(a) {
-    while (b>a) {
+let b = 2;
+function primenumber(a) {
+    let primeno = 0;
+    while (b < a) {
         if (a % b == 0) {
             console.log("not prime no")
-            b++;
+            primeno = 1;
         }
-
-            else {
+        b++;
+    }
+        if(primeno == 0) {
             console.log(" prime no")
         }
-    }
+    
 }
-primeNumber(11)
+primenumber(10);
