@@ -14,4 +14,4 @@ function primenumber(a) {
         }
     
 }
-primenumber(10);
+primenumber(1);
