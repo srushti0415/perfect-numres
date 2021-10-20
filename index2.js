@@ -1,16 +1,19 @@
-let b = 1;
+let b = 2;
 function perfectNumbers(a) {
+    var total = 1;
     while (b < a) {
-        console.log(a % b)
+        if (a % b == 0) {
+            total = total + b;
+        }
         b++;
-        if (b += a) {
-            console.log("Perfecr Number.")
-        }
-        else {
-            console.log("NOt a perfect number")
-        }
-
+    }
+    if (a == total) {
+        console.log("perfect number")
     }
 
 }
-perfectNumbers(28);
+
+perfectNumbers(496);
+
+
+// 6, 28, 496,  8,128 this r perfect no
