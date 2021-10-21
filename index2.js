@@ -13,7 +13,7 @@ function perfectNumbers(a) {
 
 }
 
-perfectNumbers(496);
+perfectNumbers(4900);
 
 
 // 6, 28, 496,  8,128 this r perfect no
